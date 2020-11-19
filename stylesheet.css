@@ -1,4 +1,16 @@
-.tooltip {
+.mainbody {
+  min-width: 100px;
+  max-width: 150px;
+  
+}
+
+  .rainbow-text {
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+
+  .tooltip {
     text-decoration:none;
     position:relative;
   }
