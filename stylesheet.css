@@ -6,6 +6,7 @@
   border-radius: 5px;
   padding-top: 5px;
   padding-bottom: 5px;
+  padding-left: 5px;
   line-height: 2;
   
 }
@@ -14,10 +15,12 @@
   font-size: large;
   border-left: 1px solid;
   border-right: 1px solid;
-  border-color: black;
+  border-bottom: 1px solid;
+  border-color: darkblue;
   padding-top: 5px;
   padding-bottom: 5px;
-  width: 320px;
+  padding-left: 5px;
+  width: 340px;
   margin-top: 10px;
 
 }
@@ -35,11 +38,20 @@ h6 {
   margin-top: 0px;
   margin-bottom: 0px;
 }
-  .rainbow-text {
+
+li:hover {
+  transform:scale(1.1);
+}
+
+.rainbow-text {
     background-image: linear-gradient(to left, violet, indigo, blue, green, orange, red);
     -webkit-background-clip: text;
     color: transparent;
-  }
+}
+
+.haydenPic {
+  width: 220px;
+}
 
   .tooltip {
     text-decoration:none;
