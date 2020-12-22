@@ -22,13 +22,15 @@
   border-left: 1px solid;
   border-right: 1px solid;
   border-bottom: 1px solid;
+  border-top: 1px solid;
   border-color: darkblue;
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 5px;
   width: 340px;
   margin-top: 10px;
-
+  border-radius: 10px;
+  background-color: hsl(39, 100%, 95%);
 }
 
 h5 {
